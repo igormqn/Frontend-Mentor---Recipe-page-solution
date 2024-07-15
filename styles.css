@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+
+.white-card {
+    background-color:  hsl(0, 0%, 100%);
+    margin: auto;
+    width: 500px;
+    margin-top: 30px;
+    border-radius: 1rem;
+}
+
+.white-card img {
+    height: 200px;
+    width: 450px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.white-card h1 {
+    font-family: 'Young Serif';
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 25px;    
+
+}
+
+.white-card p {
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.white-card h2 {
+    font-family: 'Outfit';
+    font-weight: 600;
+    font-size: 16px;
+    margin: 20px;
+    color: hsl(332, 51%, 32%);
+}
+
+.purple li::marker  {
+    color: hsl(332, 51%, 32%);
+  }
+
+.white-card ul li {
+    font-family: 'Outfit';
+    color: hsl(24, 5%, 18%);
+    font-size: 12px;
+    padding-left: 20px;
+    line-height: 2;
+}
+
+.white-card h3 {
+    font-size: 22px;
+    font-family: 'Young Serif';
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.brown li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+.white-card h4 {
+    font-size: 22px;
+    font-family: 'Young Serif';
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+ol li {
+    font-family: 'Outfit';
+    color: hsl(24, 5%, 18%);
+    font-size: 12px;
+    line-height: 2;
+}
+
+hr{
+    width: 450px;
+    margin-left: 25px;
+    margin-top: 20px;
+    color: hsl(24, 5%, 18%);
+}
+
+.white-card h5{
+    font-size: 22px;
+    font-family: 'Young Serif';
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.table {
+    display: flex;
+    align-items: center;
+
+}
+
+.table p {
+    margin-left: 80px;
+}
+
+#zero-gram{
+    padding-left: 10px;
+}
+
+#fourth {
+    padding-bottom: 20px;
+}
+
+.table p:nth-child(2){
+    color:  hsl(14, 45%, 36%);
+    text-align: center;
+    align-content: center;
+    font-weight: 700;
+}
+
+.attribution {
+    margin-top: 40px;
+}
+
+@media (max-width: 550px) {
+    .white-card{
+        background-color:  hsl(0, 0%, 100%);
+        margin: auto;
+        width: 350px;
+        margin-top: 30px;
+        border-radius: 1rem;
+    }
+    .white-card img {
+        height: 200px;
+        width: 300px;
+        margin-left: 25px;
+        margin-top: 25px;
+        border-radius: 10px;
+    }
+    hr{
+        width: 300px;
+        margin-left: 25px;
+        margin-top: 20px;
+        color: hsl(24, 5%, 18%);
+    }
+    
+}
+
+@media (max-width: 375px) {
+    body{
+        background-color: hsl(0, 0%, 100%);
+    }
+}
